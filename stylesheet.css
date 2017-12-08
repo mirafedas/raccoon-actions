@@ -1,0 +1,14 @@
+div {height: 35px;
+width: 120px;
+border-color: #68CF23;
+background-color: #80E33D;
+border-style: solid;
+border-width: 2px;
+border-radius: 15px;
+margin: auto;
+text-align: center;
+}
+a {text-decoration: none;
+color: black;
+font-family Verdana;}
+body {background-color:#CFCFCF;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>єноти носять колготи</title>
+		</head>
+	<body>
+
+		<center><h1 style="font-family: Cambria"; text-align: center;>Малий, вибери, що зробити з єнотом:</h1></center>
+		<center><img src=головна.jpg /></center>
+<br>
+		<center><table>
+			<tbody>
+			<tr>
+				<td><div class='buttons' data-val='5.jpg'>Дати пятюнь!</div></td>
+				<td><div class='buttons' data-val='забрати.jpg'>Забрати домів назавжди...</div></td>
+				<td><div class='buttons' data-val='подразнити.jpg'>Поздразнити!</div></td>
+				<tr/>
+
+				<tr>
+				<td><div class='buttons' data-val='пойожитись.jpg'>Пойожитись!</div></td>
+				<td><div class='buttons' data-val='покликати.jpg'>Покликати богів білок!</div></td>
+				<td><div class='buttons' data-val='я.jpg'>Я не знаю, я хвилююсь!</div></td>
+				<tr/>
+
+				</tbody>
+		</table></center>
+		<script>
+		var redirection = (myra) => {
+			var path = myra.target.getAttribute('data-val');
+			document.location.href = path;
+		};
+		document.onclick = (e) => {redirection(e)}
+		</script>
+		<body/>
+	</html>
